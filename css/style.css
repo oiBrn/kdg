@@ -41,3 +41,52 @@ footer {
   padding: 15px;
   color: #777;
 }
+
+.qs-texto {
+  font-family: 'Special Elite', cursive;
+}
+
+.quem-somos-page {
+  font-family: 'Special Elite', cursive;
+}
+.qs-img {
+  width: 100%;
+  max-width: 420px;
+  display: block;
+  margin: 30px auto;
+}
+
+.qs-texto {
+  font-family: 'Special Elite', cursive;
+  color: #e0e0e0;
+  line-height: 1.6;
+  margin-top: 20px;
+}
+
+.qs-texto.destaque {
+  color: #ffb3b3;
+  border-left: 3px solid #ff5555;
+  padding-left: 15px;
+}
+.btn-ativar {
+  display: block;
+  margin: 25px auto;
+  padding: 12px 30px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #1eff00;
+  color: #000;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.btn-ativar:hover {
+  background-color: #14c400;
+  transform: scale(1.05);
+}
+
+.btn-ativar:active {
+  transform: scale(0.95);
+}
